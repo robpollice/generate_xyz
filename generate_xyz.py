@@ -1,5 +1,4 @@
 # import packages
-import numpy as np
 import pathlib as pl
 import argparse as ap
 import rdkit.Chem as rdc
