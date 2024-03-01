@@ -54,7 +54,6 @@ class structure:
                     break
                 self.atoms.append(line.split()[3])
                 self.xyz.append([float(line.split()[0]),float(line.split()[1]),float(line.split()[2])])
-            self.xyz=np.array(self.xyz)
             self.atom_count = len(self.atoms)
         except:
             print("ERROR: could not read xyz coordinates from rdkit molecule %s."%(self.smiles))
